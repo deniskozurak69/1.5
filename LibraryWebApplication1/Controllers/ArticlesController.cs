@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LibraryWebApplication1.Models;
+using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LibraryWebApplication1.Controllers
 {
@@ -50,42 +52,73 @@ namespace LibraryWebApplication1.Controllers
         }
 
         // GET: Articles/Create
-        public IActionResult Create(int categoryId)
+        public IActionResult Create(int? categoryId)
         {
-            var category = _context.Categories.FirstOrDefault(c => c.CategoryId == categoryId);
-            ViewBag.CategoryId = categoryId;
-            ViewBag.CategoryName = category?.Name;
-
-            // Зміна в ViewBag.Categories
-            ViewBag.Categories = _context.Categories
-                .Select(c => new SelectListItem { Value = c.CategoryId.ToString(), Text = c.Name });
-
-            return View();
+            ViewBag.Authors = new SelectList(_context.Users, "UserId", "Username");
+            ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name");
+            if (categoryId != null)
+            {
+                var category = _context.Categories.FirstOrDefault(c => c.CategoryId == categoryId);
+                ViewBag.CategoryId = categoryId;
+                ViewBag.CategoryName = category?.Name;
+                var article = new Article
+                {
+                    CategoryId = categoryId,
+                    CategoryNavigation = category
+                };
+                return View(article);
+            }
+            else
+            {
+                var article = new Article();
+                return View(article);
+            }
         }
 
         // POST: Articles/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ArticleId,AuthorId,AuthorUsername,ArticleName,CategoryId,PublishDate,Status")] Article article)
+        public async Task<IActionResult> Create([Bind("AuthorId,ArticleName,PublishDate,Status,CategoryId")] Article article, int? categoryId)
         {
-            if (ModelState.IsValid)
+            if (categoryId.HasValue)
             {
-                var category = await _context.Categories.FindAsync(article.CategoryId);
+                var category = await _context.Categories.FindAsync(categoryId);
 
-                // Перевірка, чи категорія існує
                 if (category != null)
                 {
                     article.CategoryNavigation = category;
-                    _context.Add(article);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+                    article.CategoryId = categoryId; // Додайте цей рядок
+                    System.Diagnostics.Debug.WriteLine(article.CategoryNavigation.CategoryId);
+                    System.Diagnostics.Debug.WriteLine("q");
                 }
                 else
                 {
-                    return NotFound();
+                    ModelState.AddModelError("CategoryId", "Selected category does not exist.");
                 }
             }
+            else
+            {
+                ModelState.AddModelError("CategoryId", "Category is required.");
+            }
 
+            if (ModelState.IsValid)
+            {
+                _context.Add(article);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            // Якщо модель не валідна, встановлюємо значення для CategoryNavigation, якщо вони є доступними
+            System.Diagnostics.Debug.WriteLine(article.CategoryNavigation);
+            foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    System.Diagnostics.Debug.WriteLine(error.ErrorMessage);
+                }
+            }
+            ViewBag.Authors = new SelectList(_context.Users, "UserId", "Username", article.AuthorId);
+            ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name", categoryId);
             return View(article);
         }
 
@@ -185,3 +218,4 @@ namespace LibraryWebApplication1.Controllers
         }
     }
 }
+

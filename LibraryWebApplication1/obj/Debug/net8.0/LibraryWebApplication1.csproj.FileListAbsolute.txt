@@ -250,3 +250,7 @@ C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\obj\De
 C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\obj\Debug\net8.0\LibraryWebApplication1.pdb
 C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\obj\Debug\net8.0\LibraryWebApplication1.genruntimeconfig.cache
 C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\obj\Debug\net8.0\ref\LibraryWebApplication1.dll
+C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\obj\Debug\net8.0\LibraryWebApplication1.sourcelink.json
+C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\denis\source\repos\LibraryWebApplication1\LibraryWebApplication1\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

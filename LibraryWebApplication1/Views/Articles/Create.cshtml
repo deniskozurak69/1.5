@@ -1,44 +1,28 @@
-﻿@model LibraryWebApplication1.Models.Article
+﻿
+
+@model LibraryWebApplication1.Models.Article
 
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Create new Article</h1>
 
 <h4>Article</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ArticleId" class="control-label"></label>
-                <input asp-for="ArticleId" class="form-control" />
-                <span asp-validation-for="ArticleId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="AuthorId" class="control-label"></label>
-                <select asp-for="AuthorId" class ="form-control" asp-items="ViewBag.AuthorId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="AuthorUsername" class="control-label"></label>
-                <input asp-for="AuthorUsername" class="form-control" />
-                <span asp-validation-for="AuthorUsername" class="text-danger"></span>
+                <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.Authors"></select>
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ArticleName" class="control-label"></label>
                 <input asp-for="ArticleName" class="form-control" />
                 <span asp-validation-for="ArticleName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Category" class="control-label"></label>
-                <input asp-for="Category" class="form-control" />
-                <span asp-validation-for="Category" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="PublishDate" class="control-label"></label>
@@ -51,16 +35,25 @@
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <input asp-for="CategoryId" class="form-control" />
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
+<!-- Виведення помилок категорії поза блоком if (ModelState.IsValid) -->
+
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

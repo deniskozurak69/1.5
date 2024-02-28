@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LibraryWebApplication1.Models;
 
@@ -13,7 +15,7 @@ public partial class Article
 
     public string? ArticleName { get; set; }
 
-    public int CategoryId { get; set; }
+    public int? CategoryId { get; set; }
 
     public string? Category { get; set; }
 
@@ -23,7 +25,8 @@ public partial class Article
 
     public virtual User? Author { get; set; }
 
-    public virtual Category CategoryNavigation { get; set; } = null!;
+    public virtual Category CategoryNavigation { get; set; }
 
     public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
 }
+
