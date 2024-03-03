@@ -1,0 +1,36 @@
+﻿@model List<SearchRequest>
+
+<h2>Search requests of @ViewBag.Username</h2>
+
+@if (Model.Any())
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>SearchRequestID</th>
+                    <th>Requested Name</th>
+                    <th>Requested Category</th>
+                        <th>Requested Author</th>
+                        <th>Requested Date</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var request in Model)
+            {
+                        <tr>
+                                            <td>@request.SearchRequestId</td>
+                                    <td>@request.RequestedName</td>
+                                    <td>@request.RequestedCategory</td>
+                                            <td>@request.RequestedAuthor</td>
+                                     <td>@request.RequestedDate</td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p>This user has no search requests.</p>
+}
+
+<a asp-controller="Users" asp-action="Index">Back to Users</a>

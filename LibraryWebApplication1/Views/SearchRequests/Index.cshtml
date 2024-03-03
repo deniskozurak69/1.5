@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LibraryWebApplication1.Models.SearchRequest>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Manage Search Requests</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SearchRequestId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestedName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestedCategory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestedAuthor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SearchRequestId)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestedName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestedCategory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestedAuthor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Username)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SearchRequestId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SearchRequestId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SearchRequestId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

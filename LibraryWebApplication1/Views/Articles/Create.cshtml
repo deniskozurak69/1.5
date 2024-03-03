@@ -15,7 +15,7 @@
         <form asp-action="Create" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="AuthorId" class="control-label"></label>
+                <label asp-for="AuthorId" class="control-label">Article author</label>
                 <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.Authors"></select>
                 <span asp-validation-for="AuthorId" class="text-danger"></span>
             </div>
@@ -35,8 +35,8 @@
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <input asp-for="CategoryId" class="form-control" />
+                <label asp-for="CategoryId" class="control-label">Article category</label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories"></select>
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -46,7 +46,6 @@
     </div>
 </div>
 
-<!-- Виведення помилок категорії поза блоком if (ModelState.IsValid) -->
 
 <div>
     <a asp-action="Index">Back to List</a>

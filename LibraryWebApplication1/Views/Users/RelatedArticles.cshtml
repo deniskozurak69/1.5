@@ -1,0 +1,35 @@
+﻿@model List<Article>
+
+<h2>Articles of @ViewBag.Username</h2>
+
+@if (Model.Any())
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Article ID</th>
+                    <th>Article Name</th>
+                    <th>Category</th>
+                        <th>Publish Date</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var article in Model)
+            {
+                        <tr>
+                            <td>@article.ArticleId</td>
+                            <td>@article.ArticleName</td>
+                            <td>@article.Category</td>
+                             <td>@article.PublishDate</td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p>This user has no articles.</p>
+}
+
+<a asp-controller="Users" asp-action="Index">Back to Users</a>

@@ -21,14 +21,9 @@ namespace LibraryWebApplication1.Controllers
         }
 
         // GET: Articles
-        public async Task<IActionResult> Index(int? id, string? name)
+        public async Task<IActionResult> Index()
         {
-            if (id == null) return RedirectToAction("Categories", "Index");
-            ViewBag.CategoryId = id;
-            ViewBag.CategoryName = name;
-            var articlesByCategory = _context.Articles.Where(a => a.CategoryId == id).Include(a => a.CategoryNavigation);
-            //var dblibraryContext = _context.Articles.Include(a => a.Author).Include(a => a.CategoryNavigation);
-            return View(await articlesByCategory.ToListAsync());
+            return View(await _context.Articles.ToListAsync());
         }
 
         // GET: Articles/Details/5
@@ -56,6 +51,7 @@ namespace LibraryWebApplication1.Controllers
         {
             ViewBag.Authors = new SelectList(_context.Users, "UserId", "Username");
             ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name");
+
             if (categoryId != null)
             {
                 var category = _context.Categories.FirstOrDefault(c => c.CategoryId == categoryId);
@@ -64,6 +60,7 @@ namespace LibraryWebApplication1.Controllers
                 var article = new Article
                 {
                     CategoryId = categoryId,
+                    Category = category?.Name,
                     CategoryNavigation = category
                 };
                 return View(article);
@@ -75,10 +72,9 @@ namespace LibraryWebApplication1.Controllers
             }
         }
 
-        // POST: Articles/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AuthorId,ArticleName,PublishDate,Status,CategoryId")] Article article, int? categoryId)
+        public async Task<IActionResult> Create([Bind("AuthorId,AuthorUsername,ArticleName,PublishDate,CategoryId,Category")] Article article, int? categoryId)
         {
             if (categoryId.HasValue)
             {
@@ -87,9 +83,8 @@ namespace LibraryWebApplication1.Controllers
                 if (category != null)
                 {
                     article.CategoryNavigation = category;
-                    article.CategoryId = categoryId; // Додайте цей рядок
-                    System.Diagnostics.Debug.WriteLine(article.CategoryNavigation.CategoryId);
-                    System.Diagnostics.Debug.WriteLine("q");
+                    article.Category = category.Name;
+                    article.CategoryId = categoryId;
                 }
                 else
                 {
@@ -101,14 +96,22 @@ namespace LibraryWebApplication1.Controllers
                 ModelState.AddModelError("CategoryId", "Category is required.");
             }
 
+            if (article.AuthorId.HasValue)
+            {
+                var author = await _context.Users.FindAsync(article.AuthorId);
+                article.Author = author;
+                article.AuthorUsername = author?.Username;
+            }
+
             if (ModelState.IsValid)
             {
+                int maxArticleId = _context.Articles.Max(c => (int?)c.ArticleId) ?? 0;
+                article.ArticleId = maxArticleId + 1;
                 _context.Add(article);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
 
-            // Якщо модель не валідна, встановлюємо значення для CategoryNavigation, якщо вони є доступними
             System.Diagnostics.Debug.WriteLine(article.CategoryNavigation);
             foreach (var modelState in ViewData.ModelState.Values)
             {
@@ -117,10 +120,13 @@ namespace LibraryWebApplication1.Controllers
                     System.Diagnostics.Debug.WriteLine(error.ErrorMessage);
                 }
             }
+
             ViewBag.Authors = new SelectList(_context.Users, "UserId", "Username", article.AuthorId);
-            ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name", categoryId);
+            ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "Name", article.CategoryId);
+
             return View(article);
         }
+
 
         // GET: Articles/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -135,8 +141,12 @@ namespace LibraryWebApplication1.Controllers
             {
                 return NotFound();
             }
-            ViewData["AuthorId"] = new SelectList(_context.Users, "UserId", "UserId", article.AuthorId);
+
+            ViewData["AuthorId"] = new SelectList(_context.Users, "UserId", "Username", article.AuthorId);
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "Name", article.CategoryId);
+            ViewData["AuthorName"] = _context.Users.FirstOrDefault(u => u.UserId == article.AuthorId)?.Username;
+            ViewData["CategoryName"] = _context.Categories.FirstOrDefault(c => c.CategoryId == article.CategoryId)?.Name;
+
             return View(article);
         }
 
@@ -145,7 +155,7 @@ namespace LibraryWebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ArticleId,AuthorId,AuthorUsername,ArticleName,CategoryId,Category,PublishDate,Status")] Article article)
+        public async Task<IActionResult> Edit(int id, [Bind("ArticleId,AuthorId,ArticleName,CategoryId,PublishDate")] Article article)
         {
             if (id != article.ArticleId)
             {
@@ -156,6 +166,8 @@ namespace LibraryWebApplication1.Controllers
             {
                 try
                 {
+                    article.AuthorUsername = _context.Users.FirstOrDefault(u => u.UserId == article.AuthorId)?.Username;
+                    article.Category = _context.Categories.FirstOrDefault(c => c.CategoryId == article.CategoryId)?.Name;
                     _context.Update(article);
                     await _context.SaveChangesAsync();
                 }
@@ -207,11 +219,31 @@ namespace LibraryWebApplication1.Controllers
             {
                 _context.Articles.Remove(article);
             }
-
+            var commentsToDelete = _context.Comments.Where(a => a.ArticleId == article.ArticleId);
+            _context.Comments.RemoveRange(commentsToDelete);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> RelatedComments(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var commentsUnderArticle = await _context.Comments
+                .Where(a => a.ArticleId == id)
+                .ToListAsync();
+
+            var articleName = _context.Articles
+                .Where(c => c.ArticleId == id)
+                .Select(c => c.ArticleName)
+                .FirstOrDefault();
+
+            ViewBag.ArticleName = articleName;
+
+            return View("RelatedComments", commentsUnderArticle);
+        }
         private bool ArticleExists(int id)
         {
             return _context.Articles.Any(e => e.ArticleId == id);

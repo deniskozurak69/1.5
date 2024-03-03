@@ -57,6 +57,8 @@ namespace LibraryWebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
+                int maxUserId = _context.Users.Max(c => (int?)c.UserId) ?? 0;
+                user.UserId = maxUserId + 1;
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -141,13 +143,84 @@ namespace LibraryWebApplication1.Controllers
             var user = await _context.Users.FindAsync(id);
             if (user != null)
             {
+                var requestsToDelete = _context.SearchRequests.Where(a => a.UserId == user.UserId);
+                _context.SearchRequests.RemoveRange(requestsToDelete);
+                var articlesToDelete = _context.Articles.Where(a => a.AuthorId == user.UserId);
+                _context.Articles.RemoveRange(articlesToDelete);
+
+                var commentsToDelete = _context.Comments
+                    .Where(c => c.AuthorUsername == user.Username || articlesToDelete.Any(a => a.ArticleId == c.ArticleId));
+                _context.Comments.RemoveRange(commentsToDelete);
+
                 _context.Users.Remove(user);
+
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> RelatedArticles(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var articlesOfUser = await _context.Articles
+                .Where(a => a.AuthorId == id)
+                .ToListAsync();
+
+            var userName = _context.Users
+                .Where(c => c.UserId == id)
+                .Select(c => c.Username)
+                .FirstOrDefault();
+
+            ViewBag.Username = userName;
+
+            return View("RelatedArticles", articlesOfUser);
+        }
+        public async Task<IActionResult> RelatedComments(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var commentsOfUser = await _context.Comments
+                .Where(a => a.AuthorId == id)
+                .ToListAsync();
+
+            var userName = _context.Users
+                .Where(c => c.UserId == id)
+                .Select(c => c.Username)
+                .FirstOrDefault();
+
+            ViewBag.Username = userName;
+
+            return View("RelatedComments", commentsOfUser);
+        }
+
+        public async Task<IActionResult> RelatedSearchRequests(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var requestsOfUser = await _context.SearchRequests
+                .Where(a => a.UserId == id)
+                .ToListAsync();
+
+            var userName = _context.Users
+                .Where(c => c.UserId == id)
+                .Select(c => c.Username)
+                .FirstOrDefault();
+
+            ViewBag.Username = userName;
+
+            return View("RelatedSearchRequests", requestsOfUser);
+        }
         private bool UserExists(int id)
         {
             return _context.Users.Any(e => e.UserId == id);

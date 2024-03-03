@@ -34,11 +34,21 @@ namespace LibraryWebApplication1.Controllers
 
             var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.CategoryId == id);
+
             if (category == null)
             {
                 return NotFound();
             }
-            return RedirectToAction("Index", "Articles", new { id = category.CategoryId, name = category.Name });
+
+            // Отримуємо статті, що відносяться до конкретної категорії
+            var articlesInCategory = await _context.Articles
+                .Where(a => a.CategoryId == id)
+                .ToListAsync();
+
+            // Передаємо список статей у вигляд для відображення
+            ViewBag.Articles = articlesInCategory;
+
+            return View(category);
         }
 
         // GET: Categories/Create
@@ -139,13 +149,39 @@ namespace LibraryWebApplication1.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var category = await _context.Categories.FindAsync(id);
-            if (category != null)
+            if (category == null)
             {
-                _context.Categories.Remove(category);
+                return NotFound();
             }
 
+            var articlesToDelete = _context.Articles.Where(a => a.CategoryId == category.CategoryId);
+            _context.Articles.RemoveRange(articlesToDelete);
+
+            _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> RelatedArticles(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var articlesInCategory = await _context.Articles
+                .Where(a => a.CategoryId == id)
+                .ToListAsync();
+
+            var categoryName = _context.Categories
+                .Where(c => c.CategoryId == id)
+                .Select(c => c.Name)
+                .FirstOrDefault();
+
+            ViewBag.CategoryName = categoryName;
+
+            return View("RelatedArticles", articlesInCategory);
         }
 
         private bool CategoryExists(int id)

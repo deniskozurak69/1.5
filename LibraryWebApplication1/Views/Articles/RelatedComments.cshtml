@@ -1,0 +1,33 @@
+﻿@model List<Comment>
+
+<h2>Comments of @ViewBag.ArticleName</h2>
+
+@if (Model.Any())
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Comment ID</th>
+                    <th>Text</th>
+                        <th>Publish Date</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var comment in Model)
+            {
+                        <tr>
+                            <td>@comment.CommentId</td>
+                            <td>@comment.Text</td>
+                             <td>@comment.PublishDate</td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p>This article has no comments.</p>
+}
+
+<a asp-controller="Articles" asp-action="Index">Back to Articles</a>

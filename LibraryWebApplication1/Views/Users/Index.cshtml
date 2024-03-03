@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Manage Users</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -12,6 +12,9 @@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Username)
             </th>
@@ -24,6 +27,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Username)
             </td>
@@ -33,7 +39,10 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.UserId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.UserId">Delete</a> |
+                    <a asp-action="RelatedArticles" asp-route-id="@item.UserId">Related Articles</a> |
+                        <a asp-action="RelatedComments" asp-route-id="@item.UserId">Related Comments</a> |
+                            <a asp-action="RelatedSearchRequests" asp-route-id="@item.UserId">Related Search Requests</a>
             </td>
         </tr>
 }
