@@ -215,12 +215,13 @@ namespace LibraryWebApplication1.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var article = await _context.Articles.FindAsync(id);
-            if (article != null)
+            if (article == null)
             {
-                _context.Articles.Remove(article);
+                return NotFound();    
             }
             var commentsToDelete = _context.Comments.Where(a => a.ArticleId == article.ArticleId);
             _context.Comments.RemoveRange(commentsToDelete);
+            _context.Articles.Remove(article);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

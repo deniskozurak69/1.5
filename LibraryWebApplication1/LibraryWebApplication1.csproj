@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Content Remove="Views\Categories\RelatedComments.cshtml" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap_slate.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap_slate.min.css" />
   </ItemGroup>
 
   <ItemGroup>
