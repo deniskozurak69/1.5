@@ -108,6 +108,7 @@ namespace LibraryWebApplication1.Controllers
                 int maxArticleId = _context.Articles.Max(c => (int?)c.ArticleId) ?? 0;
                 article.ArticleId = maxArticleId + 1;
                 _context.Add(article);
+                //category.Articles.Add(article);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

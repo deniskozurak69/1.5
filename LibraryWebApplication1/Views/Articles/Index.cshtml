@@ -58,3 +58,28 @@
 }
     </tbody>
 </table>
+
+<div class="container">
+    <div id="chart3"></div>
+</div>
+@section scripts {
+                    <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                <script>
+                    google.charts.load('current', { 'packages': ['corechart'] });
+                    google.charts.setOnLoadCallback(drawChart);
+
+                        function drawChart() {
+
+                                                $.get('/api/Chart/CommentsByArticles', function(CommentsByArticles) {
+                                        data = google.visualization.arrayToDataTable(CommentsByArticles, false);
+                                var option = {
+                                    title: "Співвідношення кількості статей та коментарів",
+                                    width: 1000,
+                                    height: 400
+                                };
+                                chart = new google.visualization.BarChart(document.getElementById('chart3'));
+                                chart.draw(data, option);
+                            })
+                        }
+                    </script>
+}

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "ContainingType": "LibraryWebApplication1.Controllers.ChartController",
+    "Method": "ArticlesByCategories",
+    "RelativePath": "api/Chart/ArticlesByCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApplication1.Controllers.ChartController",
+    "Method": "ArticlesByUsers",
+    "RelativePath": "api/Chart/ArticlesByUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryWebApplication1.Controllers.ChartController",
+    "Method": "CommentsByArticles",
+    "RelativePath": "api/Chart/CommentsByArticles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

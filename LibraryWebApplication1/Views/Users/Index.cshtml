@@ -48,3 +48,29 @@
 }
     </tbody>
 </table>
+
+<div class="container">
+    <div id="chart2"></div>
+</div>
+@section scripts {
+            <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+            google.charts.load('current', { 'packages': ['corechart'] });
+            google.charts.setOnLoadCallback(drawChart);
+
+                function drawChart() {
+
+                                $.get('/api/Chart/ArticlesByUsers', function(ArticlesByUsers) {
+                            data = google.visualization.arrayToDataTable(ArticlesByUsers, false);
+                        var option = {
+                            title: "Співвідношення кількості статей та користувачів",
+                            width: 500,
+                            height: 400
+                        };
+                        chart = new google.visualization.PieChart(document.getElementById('chart2'));
+                        chart.draw(data, option);
+                    })
+                }
+            </script>
+}
+

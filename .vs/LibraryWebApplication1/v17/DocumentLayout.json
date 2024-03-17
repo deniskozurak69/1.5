@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\chartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\chartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\categories\\relatedarticles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\comments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\comments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\searchrequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\comments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +171,6 @@
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|c:\\users\\denis\\source\\repos\\librarywebapplication1\\librarywebapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4F8A79C-B37D-48F9-B54D-6B65902218B6}|LibraryWebApplication1\\LibraryWebApplication1.csproj|solutionrelative:librarywebapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -213,23 +217,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Category.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Models\\Category.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T20:31:51.266Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-27T18:03:25.068Z"
             },
             {
               "$type": "Document",
@@ -239,37 +244,90 @@
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\ArticlesController.cs",
               "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\ArticlesController.cs",
               "RelativeToolTip": "LibraryWebApplication1\\Controllers\\ArticlesController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAkwE0AAAAJAAAA",
+              "ViewState": "AQIAALUAAAAAAAAAAADwv2IAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T21:06:06.524Z"
+              "WhenOpened": "2024-02-22T21:06:06.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "LibraryWebApplication1\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Article.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Models\\Article.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:40:39.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-27T18:03:07.562Z"
+              "WhenOpened": "2024-02-24T20:40:45.801Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\User.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T00:26:01.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-01T19:12:44.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Comment.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Models\\Comment.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T23:54:38.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-26T10:01:22.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChartController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\ChartController.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\ChartController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\ChartController.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Controllers\\ChartController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T20:46:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Details.cshtml",
@@ -281,20 +339,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAApAAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAkwD0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-03T11:52:06.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T20:30:53.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "LibraryWebApplication1\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAADwv5wAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T19:40:39.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RelatedArticles.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\RelatedArticles.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\RelatedArticles.cshtml",
@@ -306,19 +375,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-26T10:01:22.962Z"
+              "WhenOpened": "2024-03-03T11:52:06.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T18:03:07.562Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
+              "RelativeToolTip": "LibraryWebApplication1\\Views\\Articles\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-27T18:03:25.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Comments\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Comments\\Index.cshtml",
@@ -330,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\SearchRequests\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\SearchRequests\\Index.cshtml",
@@ -342,19 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Article.cs",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Article.cs",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Article.cs",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Article.cs",
-              "RelativeToolTip": "LibraryWebApplication1\\Models\\Article.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwCkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T20:40:45.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Create.cshtml",
@@ -367,18 +448,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Comment.cs",
-              "RelativeToolTip": "LibraryWebApplication1\\Models\\Comment.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T23:54:38.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Comments\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Comments\\Edit.cshtml",
@@ -390,31 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Index.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Index.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Users\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-01T19:12:44.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "LibraryWebApplication1\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-22T20:30:53.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\CommentsController.cs",
@@ -426,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RelatedArticles.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\RelatedArticles.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\RelatedArticles.cshtml",
@@ -438,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "SearchRequest.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\SearchRequest.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\SearchRequest.cs",
@@ -450,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "RelatedComments.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\RelatedComments.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\RelatedComments.cshtml",
@@ -462,19 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\Category.cs",
-              "RelativeToolTip": "LibraryWebApplication1\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T20:31:51.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "RelatedSearchRequests.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\RelatedSearchRequests.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\RelatedSearchRequests.cshtml",
@@ -486,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Edit.cshtml",
@@ -498,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Delete.cshtml",
@@ -510,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\UsersController.cs",
@@ -522,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Create.cshtml",
@@ -534,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\SearchRequests\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\SearchRequests\\Edit.cshtml",
@@ -546,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\SearchRequests\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\SearchRequests\\Details.cshtml",
@@ -558,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\SearchRequests\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\SearchRequests\\Delete.cshtml",
@@ -570,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Home\\Index.cshtml",
@@ -582,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Users\\Details.cshtml",
@@ -594,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Comments\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Comments\\Details.cshtml",
@@ -606,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Comments\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Comments\\Delete.cshtml",
@@ -618,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\SearchRequests\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\SearchRequests\\Create.cshtml",
@@ -630,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Edit.cshtml",
@@ -642,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Details.cshtml",
@@ -654,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\Delete.cshtml",
@@ -666,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Comments\\Create.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Comments\\Create.cshtml",
@@ -678,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "RelatedComments.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\RelatedComments.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\RelatedComments.cshtml",
@@ -690,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Articles\\Delete.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Articles\\Delete.cshtml",
@@ -702,19 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\User.cs",
-              "RelativeToolTip": "LibraryWebApplication1\\Models\\User.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBEAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T00:26:01.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\ErrorViewModel.cs",
@@ -726,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "DblibraryContext.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Models\\DblibraryContext.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Models\\DblibraryContext.cs",
@@ -738,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "RelatedComments.cshtml",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Views\\Categories\\RelatedComments.cshtml",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Views\\Categories\\RelatedComments.cshtml",
@@ -750,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "20240302201028_m.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Migrations\\20240302201028_m.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Migrations\\20240302201028_m.cs",
@@ -762,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "SearchRequestsController.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Controllers\\SearchRequestsController.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Controllers\\SearchRequestsController.cs",
@@ -774,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Program.cs",
@@ -786,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "DblibraryContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\Migrations\\DblibraryContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\Migrations\\DblibraryContextModelSnapshot.cs",
@@ -798,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ArticlesController.cs",
               "DocumentMoniker": "C:\\Users\\denis\\AppData\\Local\\SourceServer\\90874cef8d12e9f0886d82364d5539761f5b814e0e944da4f4733670caaa5986\\LibraryWebApplication1\\Controllers\\ArticlesController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\90874cef8d12e9f0886d82364d5539761f5b814e0e944da4f4733670caaa5986\\LibraryWebApplication1\\Controllers\\ArticlesController.cs",
@@ -810,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\appsettings.json",
@@ -822,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "LibraryWebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\denis\\source\\repos\\LibraryWebApplication1\\LibraryWebApplication1\\LibraryWebApplication1.csproj",
               "RelativeDocumentMoniker": "LibraryWebApplication1\\LibraryWebApplication1.csproj",
